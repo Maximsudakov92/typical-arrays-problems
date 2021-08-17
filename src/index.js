@@ -15,7 +15,6 @@ exports.max = function max (array) {
 }
 
 exports.avg = function avg (array) {
-    console.log(array)
   if(array === undefined || array.length === 0) {
     return 0;
   }
